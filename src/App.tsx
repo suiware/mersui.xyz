@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <div className="text-foreground bg-background flex flex-col justify-between items-center h-screen">
-        <main className="flex flex-col justify-center items-center p-4 grow">
+        <main className="flex flex-col justify-center items-center p-6 grow">
           <h1 className="text-5xl font-bold">{APP_NAME}</h1>
           <h2 className="text-2xl mt-2 text-center font-light">
             {APP_DESCRIPTION}
@@ -38,7 +38,7 @@ function App() {
             </a>
           </div>
         </main>
-        <footer className="flex flex-col justify-center items-center p-4">
+        <footer className="flex flex-col justify-center items-center p-6">
           <div className="mt-5 text-center">
             by{" "}
             <a
