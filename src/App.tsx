@@ -2,6 +2,7 @@ import { MerSuiWidget } from "mersui";
 import {
   APP_DESCRIPTION,
   APP_NAME,
+  APP_NAME_PRONUNCIATION,
   AUTHOR_NAME,
   AUTHOR_URL,
   DOCUMENTATION_URL,
@@ -13,16 +14,19 @@ function App() {
     <>
       <div className="text-foreground bg-background flex flex-col justify-between items-center h-screen">
         <main className="flex flex-col justify-center items-center p-6 grow">
-          <h1 className="text-5xl font-bold">{APP_NAME}</h1>
-          <h2 className="text-2xl mt-2 text-center font-light">
+          <div className="text-center mt-4">
+            <h1 className="text-5xl font-bold">{APP_NAME}</h1>
+            <div className=" text-center">{APP_NAME_PRONUNCIATION}</div>
+          </div>
+          <h2 className="text-2xl mt-3 text-center font-light">
             {APP_DESCRIPTION}
           </h2>
 
-          <div className="mt-10 text-center">
+          <div className="mt-12 text-center">
             <MerSuiWidget recipientAddress={DONATION_SUI_ADDRESS} />
           </div>
 
-          <div className="mt-8 text-center">
+          <div className="mt-12 text-center">
             No intermediaries, you receive donations directly to your Sui
             address.
           </div>
