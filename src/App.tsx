@@ -37,11 +37,6 @@ function App() {
               Read the docs
             </a>
           </div>
-
-          <div className="mt-8 text-center max-w-md">
-            Btw, no intermediaries, you receive donations directly to your Sui
-            address.
-          </div>
         </main>
         <footer className="flex flex-col justify-center items-center p-6">
           <div className="mt-5 text-center">
