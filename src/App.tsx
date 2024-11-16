@@ -23,18 +23,18 @@ function App() {
           </div>
 
           <div className="mt-8 text-center">
-            No intermediary - you receive donations directly to your Sui
+            No intermediaries, you receive donations directly to your Sui
             address.
           </div>
 
           <div className="mt-5 text-center">
-            Want this React button?{" "}
+            Want such a button for your React site?{" "}
             <a
               href={DOCUMENTATION_URL}
               target="_blank"
               className="underline block"
             >
-              Check out the guide
+              Read the docs
             </a>
           </div>
         </main>
