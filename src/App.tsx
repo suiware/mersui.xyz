@@ -16,9 +16,10 @@ function App() {
         <main className="flex flex-col justify-center items-center p-6 grow">
           <div className="text-center mt-4">
             <h1 className="text-5xl font-bold">{APP_NAME}</h1>
-            <div className=" text-center">{APP_NAME_PRONUNCIATION}</div>
+            <div className="font-light text-center text-sm">{APP_NAME_PRONUNCIATION}</div>
           </div>
-          <h2 className="text-2xl mt-3 text-center font-light">
+
+          <h2 className="text-2xl mt-10 text-center font-normal">
             {APP_DESCRIPTION}
           </h2>
 
@@ -27,11 +28,6 @@ function App() {
           </div>
 
           <div className="mt-12 text-center">
-            No intermediaries, you receive donations directly to your Sui
-            address.
-          </div>
-
-          <div className="mt-5 text-center">
             Want such a button for your React site?{" "}
             <a
               href={DOCUMENTATION_URL}
@@ -40,6 +36,11 @@ function App() {
             >
               Read the docs
             </a>
+          </div>
+
+          <div className="mt-8 text-center max-w-md">
+            Btw, no intermediaries, you receive donations directly to your Sui
+            address.
           </div>
         </main>
         <footer className="flex flex-col justify-center items-center p-6">

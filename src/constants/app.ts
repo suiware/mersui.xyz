@@ -1,5 +1,5 @@
 export const APP_NAME = "MerSui";
-export const APP_DESCRIPTION = "get rewarded for your content in Sui";
+export const APP_DESCRIPTION = "Get rewarded for your content in SUI";
 export const APP_NAME_PRONUNCIATION = '("merswee" from French "merci")';
 export const AUTHOR_NAME = "suiware";
 export const AUTHOR_URL = "https://suiware.io";
