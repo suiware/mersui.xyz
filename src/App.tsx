@@ -5,6 +5,7 @@ import {
   AUTHOR_NAME,
   AUTHOR_URL,
   DOCUMENTATION_URL,
+  DONATION_SUI_ADDRESS,
 } from "./constants/app";
 
 function App() {
@@ -18,17 +19,22 @@ function App() {
           </h2>
 
           <div className="mt-10 text-center">
-            <MerSuiWidget recipientAddress="0x0" />
+            <MerSuiWidget recipientAddress={DONATION_SUI_ADDRESS} />
           </div>
 
           <div className="mt-8 text-center">
-            No intermediary, you receive donations directly to your Sui address.
+            No intermediary - you receive donations directly to your Sui
+            address.
           </div>
 
           <div className="mt-5 text-center">
-            Do you want such a button for your React site?{" "}
-            <a href={DOCUMENTATION_URL} target="_blank" className="underline block">
-              Read the docs
+            Want this React button?{" "}
+            <a
+              href={DOCUMENTATION_URL}
+              target="_blank"
+              className="underline block"
+            >
+              Check out the guide
             </a>
           </div>
         </main>
