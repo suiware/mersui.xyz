@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       mersui:
-        specifier: ^0.1.2
-        version: 0.1.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^0.2.0
+        version: 0.2.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -930,8 +930,8 @@ packages:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
 
-  mersui@0.1.2:
-    resolution: {integrity: sha512-UBc9LBq3HTKPay9r9gs2IiMKVWcUbfIZkxJmF8zj6D4zQimmWm8qwHYWNLoR1iWtAAxvjzkTSzmoKa4CZhs2Tg==}
+  mersui@0.2.0:
+    resolution: {integrity: sha512-HPnje1O6zjoHiahA6EYxvVwQ4xlv2LeQNAMH+ITH8dYjLI90r9B7DmE3tdvSFzURxYApjbzSTOcvEZcqoo13ng==}
     peerDependencies:
       react: ^18.3.1
       react-dom: ^18.3.1
@@ -2057,7 +2057,7 @@ snapshots:
 
   merge2@1.4.1: {}
 
-  mersui@0.1.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  mersui@0.2.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
