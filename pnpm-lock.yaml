@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       mersui:
-        specifier: ^0.4.0
-        version: 0.4.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: ^0.5.0
+        version: 0.5.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       react:
         specifier: ^19.2.0
         version: 19.2.0
@@ -1090,8 +1090,8 @@ packages:
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
 
-  mersui@0.4.0:
-    resolution: {integrity: sha512-zvy1GxPP5JJY8qeaKXlYvrs7yS/kSKqi0M5nh+9KVPUwRi9wdt/dzSJNKEZP9JbBokguHsMBB6zEZv/EagBroQ==}
+  mersui@0.5.0:
+    resolution: {integrity: sha512-R4EbcNOWINnYemZK97/EsJTZAvKkGe8gf5KmK/Srypwsf4WsptCALnrZuIUjyZBmWiBtSkdYeuf0UmF3CLyJ4Q==}
     peerDependencies:
       react: ^19.0.0
       react-dom: ^19.0.0
@@ -2239,7 +2239,7 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  mersui@0.4.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0):
+  mersui@0.5.0(react-dom@19.2.0(react@19.2.0))(react@19.2.0):
     dependencies:
       react: 19.2.0
       react-dom: 19.2.0(react@19.2.0)

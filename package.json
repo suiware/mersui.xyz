@@ -11,7 +11,7 @@
     "deploy": "firebase deploy"
   },
   "dependencies": {
-    "mersui": "^0.4.0",
+    "mersui": "^0.5.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },

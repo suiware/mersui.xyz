@@ -6,7 +6,7 @@ import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <MerSuiProvider>
+    <MerSuiProvider network="mainnet">
       <App />
     </MerSuiProvider>
   </StrictMode>
