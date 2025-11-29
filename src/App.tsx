@@ -6,6 +6,7 @@ import {
   AUTHOR_NAME,
   AUTHOR_URL,
   DOCUMENTATION_URL,
+  DONATION_AMOUNT,
   DONATION_SUI_ADDRESS,
 } from "./constants/app";
 
@@ -16,7 +17,9 @@ function App() {
         <main className="flex flex-col justify-center items-center p-6 grow">
           <div className="text-center mt-4">
             <h1 className="text-5xl font-bold">{APP_NAME}</h1>
-            <div className="font-light text-center text-sm">{APP_NAME_PRONUNCIATION}</div>
+            <div className="font-light text-center text-sm">
+              {APP_NAME_PRONUNCIATION}
+            </div>
           </div>
 
           <h2 className="text-2xl mt-10 text-center font-normal">
@@ -24,7 +27,10 @@ function App() {
           </h2>
 
           <div className="mt-12 text-center">
-            <MerSuiWidget recipientAddress={DONATION_SUI_ADDRESS} />
+            <MerSuiWidget
+              recipientAddress={DONATION_SUI_ADDRESS}
+              amount={DONATION_AMOUNT}
+            />
           </div>
 
           <div className="mt-12 text-center">
